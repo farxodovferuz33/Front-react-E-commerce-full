@@ -1,0 +1,84 @@
+header{
+    height: 80px;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: rgba(203, 242, 255, 0.5);
+}
+
+.mainCard{
+    width: 69%;
+    margin: 0 auto;
+    height: 790px;
+    overflow: auto;
+    padding: 10px;
+    background-color: rgba(236, 236, 236, 0.633);
+    
+}
+
+.mainIncard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+
+.cardIn{
+    width: 250px;
+    height:230px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 25px;
+    background: rgb(58,180,66);
+    background: linear-gradient(50deg, rgba(58,180,66,0.4598214285714286) 8%, rgba(188,253,29,0) 47%, rgba(69,252,216,0.6643032212885154) 72%);
+    box-shadow: 10px 10px 10px 1px rgba(0,120,235,0.58);
+    -webkit-box-shadow: 10px 10px 10px 1px rgba(0,120,235,0.58);
+    -moz-box-shadow: 10px 10px 10px 1px rgba(0,120,235,0.58);
+}
+
+
+.cardImg{
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+
+
+.sava{
+    position: fixed;
+    top: 65px;
+    right: 300px;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: auto;
+    padding: 15px;
+    background: rgb(205,255,82);
+    background: linear-gradient(50deg, rgba(205,255,82,0) 0%, rgba(20,255,35,0.4598214285714286) 8%, rgba(211,255,146,0.7651435574229692) 56%, rgba(51,255,215,0.6643032212885154) 90%);
+}
+
+.savatIn{
+    width: 98%;
+    height: 55px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(205,255,82);
+    background: linear-gradient(50deg, rgba(205,255,82,0) 0%, rgba(20,255,35,0.4598214285714286) 8%, rgba(211,255,146,0.7651435574229692) 56%, rgba(51,255,215,0.6643032212885154) 90%);
+}
+
+.savatOver{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pageNit{
+    position: fixed;
+    top: 750px;
+    left: 850px;
+}
